@@ -21,6 +21,7 @@ main {
 
 .card {
   margin: 2em 1em;
+  padding: 0 !important;
 }
 
 .card-action a {
@@ -31,11 +32,24 @@ main {
   margin: 0 1.5em !important;  
 }
 
-img {
-  max-width: 450px !important;
+.container {
+  height: 100vh;
 }
 
 iframe {
   width: 100%;
   height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #cfd8dc;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
