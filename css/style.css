@@ -1,0 +1,27 @@
+/* body {
+  margin: 0 auto;
+} */
+
+.brand-logo {
+  margin-left: .5em;
+}
+
+nav ul {
+  margin-right: 1em;
+}
+
+main {
+  background: #eceff1;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.card-action a {
+  margin-right: 0 !important;
+}
+
+.col {
+  margin: 0 1.5em !important;  
+}
