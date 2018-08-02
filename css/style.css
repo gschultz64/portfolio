@@ -1,9 +1,13 @@
-/* body {
-  margin: 0 auto;
-} */
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .brand-logo {
   margin-left: .5em;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
 }
 
 nav ul {
@@ -12,16 +16,26 @@ nav ul {
 
 main {
   background: #eceff1;
+  text-align: center;
 }
 
 .card {
-  margin-top: 2em;
+  margin: 2em 1em;
 }
 
 .card-action a {
   margin-right: 0 !important;
 }
 
-.col {
+.col.m5 {
   margin: 0 1.5em !important;  
+}
+
+img {
+  max-width: 450px !important;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
 }
