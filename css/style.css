@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: #eceff1;
 }
 
 .brand-logo {
@@ -15,7 +16,6 @@ nav ul {
 }
 
 main {
-  background: #eceff1;
   text-align: center;
 }
 
